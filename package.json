@@ -5,8 +5,8 @@
   "author": "{{{ author }}}",
   "license": "{{ license }}",
   "scripts": {
-    "dev": "node_modules/.bin/babel docs/src -d docs/dist --watch",
-    "build": "node_modules/.bin/babel src -d lib",
+    "dev": "babel docs/src -d docs/dist --watch",
+    "build": "babel src -d lib",
     "release": "npm run build && npm publish"
   },
   "keywords": [
