@@ -10,7 +10,7 @@ module.exports = {
       type: 'input',
       name: "keywords",
       message: "请输入关键字：",
-      default: "react"
+      default: "module"
     },
     {
       type: 'input',
